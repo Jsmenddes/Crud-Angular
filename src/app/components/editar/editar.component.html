@@ -1,0 +1,24 @@
+<body>
+  <form>
+    <div class="nome">
+      <mat-form-field>
+        <input matInput placeholder="Nome" [(ngModel)]="users.name" name="name">
+      </mat-form-field>
+    </div>
+    <div class="idade">
+      <mat-form-field>
+      <input matInput placeholder="Idade" [(ngModel)]="users.age" name="idade">
+    </mat-form-field>
+
+    </div>
+
+  </form>
+
+  <button (click)="cancel()">Cancelar</button>
+  <button routerLink="cadastrar" (click)="updateName()" color="primary">Editar</button>
+
+
+
+
+
+</body>

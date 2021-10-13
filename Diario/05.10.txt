@@ -1,0 +1,17 @@
+
+LINKS
+https://www.cod3r.com.br/courses/take/angular-9-essencial/lessons/11728305-backend-com-json-server
+https://medium.com/@andrewchanm/criando-um-app-angular-7-e-consumindo-uma-api-rest-1-de-3-7169d90ed8c1
+https://www.w3schools.com/css/css_table.asp
+ttps://fonts.google.com/specimen/Raleway
+https://www.w3schools.com/tags/att_input_type_checkbox.asp#:~:text=The%20%3Cinput%20type%3D%22checkbox,tag%20for%20best%20accessibility%20practices!
+Criação do Layout primeira tela passo a passo
+
+Criação do projeto "CRUD"
+Criação dos componentes: 
+usuário (primeira-tela)
+adicionar
+Editar
+Excluir
+CSS para estilização da tabela 
+

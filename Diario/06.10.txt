@@ -1,0 +1,8 @@
+teste api no postman
+
+event bindin:(click)="fazerAlgo()" uma ação que chama um método pra ser executado quando acontecer o evento.
+binding de atributo:[id]="propLegal" resolvendo o valor da variavel dentro do componente, valor da variavel sera atribuido onde foi sinalizado o binding.
+
+
+           <li *ngFor="let user of users">
+            {{user.name}}

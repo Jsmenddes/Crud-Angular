@@ -1,0 +1,16 @@
+<body>
+  <form>
+    <div class="nome">
+      <mat-form-field>
+        <input matInput placeholder="Nome" [value]="users.name" name="name" disabled>
+      </mat-form-field>
+    </div>
+    <div class="idade">
+      <mat-form-field>
+      <input matInput placeholder="Idade" [value]="users.age" name="idade" disabled>
+    </mat-form-field>
+    </div>
+  </form>
+  <button (click)="cancel()">Cancelar</button>
+  <button routerLink="cadastrar" (click)="deleteName()" color="primary">Excluir</button>
+</body>

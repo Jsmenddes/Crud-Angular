@@ -1,0 +1,65 @@
+body {
+  width: 100%;
+  margin: 150px 20px 0px 0px;
+
+}
+
+button {
+  background:rgb(70, 70, 194);
+  box-shadow: gainsboro 2px;
+  width: 20%;
+  height: 50px;
+  border-radius: 6px;
+  margin: 0px 0px 0px 30px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+.btn {
+  display: flex;
+  justify-content:space-evenly;
+
+}
+table,td {
+  width: 90%;
+  height: 30px;
+  border:1px solid;
+  margin:40px 0px 0px 80px;
+
+}
+th{
+  font-weight:bold ;
+  height: 20px;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+
+}
+.idade {
+  text-align: center;
+}
+td {
+  padding: 10px;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-align: center;
+
+
+}
+.edit {
+  color:rgb(70, 70, 194);
+
+}
+.delete {
+  width: 100%;
+  color:rgb(240, 50, 50);
+
+}
+td.mat-cell.cdk-cell.cdk-column-name.mat-column-name {
+  text-align:start;
+
+}
+
