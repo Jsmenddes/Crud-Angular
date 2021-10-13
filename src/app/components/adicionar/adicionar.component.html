@@ -7,7 +7,6 @@
   <title>Document</title>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
-
 </head>
 <body>
   <form>
@@ -20,18 +19,12 @@
       <mat-form-field>
       <input matInput placeholder="Idade" [(ngModel)]="users.age" name="idade">
     </mat-form-field>
-
     </div>
-
   </form>
-
-  <button (click)="cancel()">Cancelar</button>
-  <button routerLink="cadastrar" (click)="createName()" color="primary">Cadastrar</button>
-
-
-
-
-
+  <div class="btn">
+    <button (click)="cancel()">Cancelar</button>
+    <button routerLink="cadastrar" (click)="createName()" color="primary">Cadastrar</button>
+  </div>
 </body>
 </html>
 

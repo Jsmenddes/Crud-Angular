@@ -9,16 +9,10 @@
       <mat-form-field>
       <input matInput placeholder="Idade" [(ngModel)]="users.age" name="idade">
     </mat-form-field>
-
     </div>
-
   </form>
-
-  <button (click)="cancel()">Cancelar</button>
+<div class="btn">
+  <button mat-raised-button (click)="cancel()">Cancelar</button>
   <button routerLink="cadastrar" (click)="updateName()" color="primary">Editar</button>
-
-
-
-
-
+</div>
 </body>

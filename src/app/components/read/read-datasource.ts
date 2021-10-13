@@ -8,16 +8,6 @@ import { Dados } from '../usuario/user.model';
 
 const EXAMPLE_DATA: Dados[] = [
 
-  {id: 1, name: 'Hydrogen',age:25 },
-  {id: 2, name: 'Helium',age:26},
-  {id: 3, name: 'Lithium',age:27},
-  {id: 4, name: 'Beryllium',age:28},
-  {id: 5, name: 'Boron',age:29},
-  {id: 6, name: 'Carbon',age:29},
-  {id: 7, name: 'Nitrogen',age:29},
-  {id: 8, name: 'Oxygen',age:29},
-  {id: 9, name: 'Fluorine',age:29},
-  {id: 10, name: 'Neon',age:29},
 ];
 
 /**

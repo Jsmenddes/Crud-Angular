@@ -26,8 +26,6 @@ export class EditarComponent implements OnInit {
     });
   }
 
-
-
   updateName(): void {
     this.dadosservice.update(this.users).subscribe(() => {
     this.dadosservice.showMessage('Usuário editado com sucesso!')

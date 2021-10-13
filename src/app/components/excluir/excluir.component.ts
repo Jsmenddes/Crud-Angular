@@ -22,7 +22,7 @@ export class ExcluirComponent implements OnInit {
   }
 
   deleteName(): void {
-this.dadosservice.delete(`${this.users.id}`).subscribe(() => {
+  this.dadosservice.delete(`${this.users.id}`).subscribe(() => {
   this.dadosservice.showMessage("Usuário excluido com sucesso!")
   this.router.navigate(["usuario"]);
 });
@@ -31,5 +31,4 @@ this.dadosservice.delete(`${this.users.id}`).subscribe(() => {
   cancel(): void {
   this.router.navigate(['/usuario'])
 }
-
 }

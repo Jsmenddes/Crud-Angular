@@ -26,8 +26,8 @@ button {
 table,td {
   width: 90%;
   height: 30px;
-  border:1px solid;
   margin:40px 0px 0px 80px;
+  border: 05px
 
 }
 th{
@@ -35,6 +35,11 @@ th{
   height: 20px;
   font-size: 18px;
   font-family: 'Raleway', sans-serif;
+  border: 05px
+
+}
+table {
+  border: 05px
 
 }
 .idade {
@@ -46,8 +51,7 @@ td {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   text-align: center;
-
-
+  border: 05px
 }
 .edit {
   color:rgb(70, 70, 194);
@@ -60,6 +64,5 @@ td {
 }
 td.mat-cell.cdk-cell.cdk-column-name.mat-column-name {
   text-align:start;
-
 }
 
